@@ -1,0 +1,100 @@
+{
+ "site": "oct.2026.newsroom.sgit.ai",
+ "short": "October 2026",
+ "brand": "October 2026",
+ "brand_suffix": ".newsroom",
+ "repo": "https://github.com/SGit-AI/SGit-AI__Website__Newsroom__2026__Oct",
+ "kicker": "The SGit Newsroom · 2026 · October",
+ "title": "October 2026: the stories of the month",
+ "description": "The SGit Newsroom's October 2026: the stories big enough to get a site of their own, led by the two PHP flaws disclosed on 21 October, with links up to the year and the newsroom and down to each story.",
+ "lead_html": "One site per story, built from captured evidence. This month has one so far, and it is the one that took government websites offline across Europe: two critical flaws in the PHP engine, found with AI help, leaked two days early, patched on 21 October. The newsroom's own daily coverage is on <a href=\"https://newsroom.sgit.ai/\">newsroom.sgit.ai</a>; this page is the index of what became a story.",
+ "items_heading": "The stories",
+ "items": [
+  {
+   "kicker": "Developing since 21 October",
+   "title": "php2shell: the two PHP flaws of October 2026, tracked as evidence",
+   "url": "https://php.oct.2026.newsroom.sgit.ai/",
+   "status": "developing",
+   "lead": true,
+   "blurb_html": "CVE-2026-109618 and CVE-2026-109619: what is established, who said what and when, the code of the fix read from php-src, the numbers that do not add up, sixteen agencies compared, what was taken offline and what was compromised, detection and defence, and a briefing for every role from the board to the developer. Every claim carries a status and its sources; every source is captured and hashed.",
+   "children": [
+    {
+     "title": "The front page",
+     "url": "https://php.oct.2026.newsroom.sgit.ai/",
+     "blurb": "what is established, what is not"
+    },
+    {
+     "title": "The timeline",
+     "url": "https://php.oct.2026.newsroom.sgit.ai/timeline/index.html",
+     "blurb": "from the 2024 audit to the latest capture"
+    },
+    {
+     "title": "The code",
+     "url": "https://php.oct.2026.newsroom.sgit.ai/code/index.html",
+     "blurb": "the fix commit, read from the repository"
+    },
+    {
+     "title": "Impact",
+     "url": "https://php.oct.2026.newsroom.sgit.ai/impact/index.html",
+     "blurb": "taken offline versus compromised"
+    },
+    {
+     "title": "Briefings",
+     "url": "https://php.oct.2026.newsroom.sgit.ai/briefings/board/index.html",
+     "blurb": "board, CISO, CTO, CFO, AppSec, developer, media, journalist, researcher, analyst"
+    },
+    {
+     "title": "Every source",
+     "url": "https://php.oct.2026.newsroom.sgit.ai/sources/index.html",
+     "blurb": "every capture, every hash"
+    }
+   ]
+  },
+  {
+   "kicker": "The newsroom's daily coverage",
+   "title": "The newsroom's PHP flaws section",
+   "url": "https://newsroom.sgit.ai/php-flaws/index.html",
+   "status": "live",
+   "blurb": "The section where the story started on the morning of 22 October, with the newsroom's reading of the BBC's live page. The story site supersedes its claims and keeps its evidence."
+  },
+  {
+   "kicker": "Also this month",
+   "title": "The Industry Wire",
+   "url": "https://newsroom.sgit.ai/wire/index.html",
+   "status": "live",
+   "blurb": "The newsroom's daily wire: the sources it reads and how it reads them. Stories that outgrow the wire get a site here."
+  }
+ ],
+ "where_html": "The month sits between the year and the stories. A story that is still a wire item lives on the newsroom; a story that needs its own evidence vault, its own claims table and its own briefings gets a site, and this page is where it is listed.",
+ "up": [
+  {
+   "label": "newsroom.sgit.ai",
+   "url": "https://newsroom.sgit.ai/",
+   "blurb": "the SGit Newsroom"
+  },
+  {
+   "label": "2026.newsroom.sgit.ai",
+   "url": "https://2026.newsroom.sgit.ai/",
+   "blurb": "the year, month by month"
+  }
+ ],
+ "down": [
+  {
+   "label": "php2shell",
+   "url": "https://php.oct.2026.newsroom.sgit.ai/",
+   "blurb": "the two PHP flaws of October 2026, tracked as evidence"
+  }
+ ],
+ "how_html": "The same method as the year site: one JSON file, one script, no clock, a gate before every release, and a release that is not done until the live site serves it.",
+ "nav": [
+  [
+   "index.html",
+   "The month"
+  ],
+  [
+   "versions/index.html",
+   "Release history"
+  ]
+ ],
+ "footer": "is the SGit Newsroom's October 2026: the stories of the month, each a site of its own."
+}

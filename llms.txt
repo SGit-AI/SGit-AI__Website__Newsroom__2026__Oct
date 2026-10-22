@@ -1,0 +1,15 @@
+# oct.2026.newsroom.sgit.ai
+
+> The SGit Newsroom's October 2026: the stories big enough to get a site of their own, led by the two PHP flaws disclosed on 21 October, with links up to the year and the newsroom and down to each story.
+
+Site v0.0.1. Every page has a markdown twin at the same path.
+
+- [October 2026: the stories of the month](https://oct.2026.newsroom.sgit.ai/index.md): The SGit Newsroom's October 2026: the stories big enough to get a site of their own, led by the two PHP flaws disclosed on 21 October, with links up to the year and the newsroom and down to each story.
+- [Release history](https://oct.2026.newsroom.sgit.ai/versions/index.md): Every release of this site, one sentence each.
+
+## Up
+- [newsroom.sgit.ai](https://newsroom.sgit.ai/): the SGit Newsroom
+- [2026.newsroom.sgit.ai](https://2026.newsroom.sgit.ai/): the year, month by month
+
+## Down
+- [php2shell](https://php.oct.2026.newsroom.sgit.ai/): the two PHP flaws of October 2026, tracked as evidence
