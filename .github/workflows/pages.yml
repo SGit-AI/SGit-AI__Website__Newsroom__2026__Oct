@@ -8,9 +8,12 @@ permissions:
   contents: read
   pages: write
   id-token: write
+# Several agents push to dev. A deploy that has started is never cut off: it finishes, then the newest waiting
+# push deploys. GitHub keeps one waiting run per group, so a push that is overtaken while it waits shows as
+# cancelled; the run after it ships its commit too. /status/ on the PHP site shows these as superseded.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   gate-and-deploy:
     runs-on: ubuntu-latest

@@ -60,7 +60,10 @@ def layout(path, title, desc, body):
 </html>
 '''
 
+OUTPUTS = set()  # every file this build writes; admin/build/outputs.txt, read by release.sh to resolve merges
+
 def write(path, content):
+    OUTPUTS.add(path)
     full = os.path.join(ROOT, path); os.makedirs(os.path.dirname(full) or ROOT, exist_ok=True)
     open(full, 'w', encoding='utf-8', newline='\n').write(content)
 
@@ -95,6 +98,7 @@ def build():
     for p, t, d in PAGES: lines.append(f'- [{t}]({BASE}/{p[:-5]}.md): {d}')
     lines += ['', '## Up'] + [f'- [{u["label"]}]({u["url"]}): {u["blurb"]}' for u in s['up']] + ['', '## Down'] + [f'- [{d["label"]}]({d["url"]}): {d["blurb"]}' for d in s['down']] + ['']
     write('llms.txt', '\n'.join(lines))
+    write('admin/build/outputs.txt', '\n'.join(sorted(OUTPUTS | {'admin/build/outputs.txt'})) + '\n')
     print(f'built {len(PAGES)} pages for v{VERSION}')
 
 if __name__ == '__main__':

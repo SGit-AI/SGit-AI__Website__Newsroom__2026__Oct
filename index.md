@@ -50,4 +50,4 @@ The month sits between the year and the stories. A story that is still a wire it
 The same method as the year site: one JSON file, one script, no clock, a gate before every release, and a release that is not done until the live site serves it.
 
 ---
-site v0.0.2 · https://oct.2026.newsroom.sgit.ai/index.html
+site v0.0.3 · https://oct.2026.newsroom.sgit.ai/index.html

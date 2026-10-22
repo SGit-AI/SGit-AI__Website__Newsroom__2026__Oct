@@ -1,6 +1,11 @@
 {
- "current": "0.0.2",
+ "current": "0.0.3",
  "versions": [
+  {
+   "version": "0.0.3",
+   "date": "2026-10-22",
+   "title": "deploys from several agents: the Pages workflow queues deploys instead of cancelling the one in flight, and release.sh takes in what other agents released before it bumps and again if its push loses a race; the deploy runs of every newsroom site are on https://php.oct.2026.newsroom.sgit.ai/status/index.html"
+  },
   {
    "version": "0.0.2",
    "date": "2026-10-22",
