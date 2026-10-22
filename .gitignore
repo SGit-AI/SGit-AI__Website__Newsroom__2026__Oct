@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# the build scripts are source, not output
+!admin/build/
+!admin/build/**

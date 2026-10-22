@@ -1,6 +1,11 @@
 {
- "current": "0.0.1",
+ "current": "0.0.2",
  "versions": [
+  {
+   "version": "0.0.2",
+   "date": "2026-10-22",
+   "title": "the build, gate and release scripts are now committed (the .gitignore template had ignored admin/build/)"
+  },
   {
    "version": "0.0.1",
    "date": "2026-10-22",
